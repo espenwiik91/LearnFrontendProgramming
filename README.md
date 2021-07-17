@@ -18,7 +18,7 @@ Github is a place where you can store your projects online. This is where you bu
 
 Git is a version controll system that functions as a bridge between the local files on your computer and your online repository e.g. GitHub
 3. Crate a new Github repository at github.com
-A repository can be tought of as a project e.g. a webpage
+A repository can be tought of as a project e.g. a webpage. Head over to "Repositories" and select New. Choose a name e.g. "MyFirstProject", write a description and hook of the include README option
 
 4. Clone the newly created repository onto your local machin
 This step will download the repository onto your local machine in a folder. It also serves as a connection between your local files and the online repository at GitHub
