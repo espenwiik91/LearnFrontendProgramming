@@ -30,6 +30,7 @@ b. Open Git Bash on your machine and navigate to where you would like to store t
   To navigate between folders in Git Bash use the following commands. 
   * cd <name-of-folder> -> Moves you to said folder. You can only navigate to folders that are childs of your current folder
   * cd .. -> Moves you to the parent folder of your current folder
+  * To execute the command, hit enter
 
 c. Type the following -> git clone <https-link-to-your-repo> e.g. git clone https://github.com/espenwiik91/LearnFrontendProgramming.git
 
@@ -62,5 +63,20 @@ git push
 ```
 The last command will prompt you to verify your account, simply choose the browser option.
 Now go look in your GitHub repository and you should see your new file appear
+  
+## Execute your code locally
+There are primarliy two ways to execute code locally on your machine. The first would be to create a HTML file and link your JS file to it, open the file locally and check the browsers consol log.
+The second way is to download node js. This is the option used here.
+Download Node js:
+[Node js](https://nodejs.org/en/)
+* Once installed, open VS Code in same folder as last time. 
+* Open a new terminal in VS Code by selecting the "Terminal" option in the upper taskbar and hit "New Terminal"
+* Type the folling command to execute your code:
+```bash
+node HelloWorld.js
+```
+In the terminal, the words "Hello World" should now appear
+  
+Congratulations, you are now ready to start your programming learning
 
 
